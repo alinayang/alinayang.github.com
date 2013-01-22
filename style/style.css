@@ -1,0 +1,80 @@
+﻿/* 全局样式 */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,address,code,
+del,em,img,dl,dt,dd,ol,ul,li,
+fieldset,form,label{
+margin:0;padding:0;border:0;
+font-style:inherit;font-family:隶体, 宋体, Arial, Helvetica, sans-serif;vertical-align:baseline;}
+body{font-size:12px;color:#fff;font-family:隶体;background:url(../images/bg_G.png) repeat-x top;}
+ul,ol{list-style-type:none;}
+textarea,select,input,button,label{vertical-align:middle;font-size:12px;font-family:"Tahoma";}
+button{cursor:pointer}
+
+/* 定义全局宽 */
+.wrap {width:1000px;margin:0px auto;overflow:hidden;}
+
+
+
+/*  - - - - - - - - - 类别样式  - - - - - - - - -*/
+.c {height:0;line-height:0;font-size:0;clear:both;overflow:hidden;display:block;}
+.l {float:left;}
+.r {float:right;}
+.rel {position:relative}
+.abs {position:absolute;}
+
+
+/* 链接样式 */
+a{color:#555;text-decoration:none;}
+a:link{}	
+a:hover{text-decoration:underline;color:#0b4da3}	/*设置对象在其鼠标悬停时的样式表属性*/
+a:active{}  /*在鼠标点击与释放之间发生的事件*/
+a:visited{} /* 已被访问过时的样式表属性 */
+a:focus { -moz-outline-style: none; }
+a:focus { outline: none; } 
+
+
+
+body {height:3031px;}
+.bg {background:url(../images/bottom_bg_G2.png) repeat-x 5px bottom ;}
+
+.wrap {background:url(../images/c.png) no-repeat;}
+.nav {background:url(../images/nav_bg.png) no-repeat;width:306px;height:477px;margin-left:680px;padding-top:25px;}
+.nav ul li {height:100px;border:0px solid #999;}
+.nav ul li a {display:block;height:100%;}
+.nav ul li a:hover {text-decoration:none;}
+
+.box1, .box2, .box3, .wrap2 {margin:0 auto;width:930px;}
+.box1 {padding:200px 0px 0 0px;text-align:right;}
+.box1 h2 {padding:0 0 10px 0;}
+.txt_bg {background:url(../images/line_bg.png) repeat-y;line-height:43px;font-size:23px;}
+
+
+.box2 {padding:95px 0 0 0;}
+.box2 h2 {padding:0px 0 10px 0;}
+.box2 .txt2 p {background:url(../images/li1.png) no-repeat 5px 15px;padding-left:30px;}
+
+.box3 {padding:15px 0 0 0;overflow:hidden;zoom:1;}
+.box3 h2 {float:left;padding:0 10px 0 0}
+.box3 p {float:left;}
+.box3 p img {padding:0 5px;}
+
+.box4 {}
+.t1 {background:url(../images/tt1-1.png) no-repeat;height:236px;}
+.t1 h2 {padding:100px 0 10px 40px;}
+.t1 h3 {font-size:24px;font-family:黑体;color:#fff;padding:44px 0 0 60px;font-weight:normal;}
+
+.list1 {background:url(../images/bg3.png) no-repeat;height:183px;width:100%;zoom:1;padding:25px 0 0px 55px;}
+.list1 li, .list2 li {float:left;background:url(../images/p_bg1.png) no-repeat;width:179px;height:149px;text-align:center;padding-top:9px;margin:0 20px;}
+.list1 li p, .list2 li p {font-size:24px;padding:7px 0 0 0;}
+
+.t2 {background:url(../images/tt2.png) no-repeat;height:62px;overflow:hidden;}
+.t2 h3 {font-size:24px;font-family:黑体;color:#fff;padding:25px 0 0 60px;font-weight:normal;}
+
+.list2 {background:url(../images/tt3.png) no-repeat;height:175px;width:100%;zoom:1;padding:25px 0 0px 55px;position:relative;z-index:10;}
+
+.box5 {background:url(../images/bg1.png) no-repeat;height:545px;margin-top:-20px;z-index:1;}
+.b1 {padding:110px 0 0px 0;}
+.box5 .cp {bottom:5px;right:5px;font-family:Tahoma;font-size:18px;}
+.b2 {padding:25px 0;font-size:20px;font-weight:bold;font-family:Arial, Helvetica, sans-serif;width:600px;}
+.b2 p {background:url(../images/line_bg.png) no-repeat bottom;padding:0 0 15px 0;margin-bottom:10px;float:left;display:inline;width:300px;height:50px;}
+.b2 img {padding:0 10px 0 0;}
